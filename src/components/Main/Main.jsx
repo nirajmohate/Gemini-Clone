@@ -2,7 +2,8 @@ import React from "react";
 import { assets } from "../../assets/assets";
 import "./Main.css";
 import { useContext } from "react";
-import { Context } from "../../context/Context.jsx";
+import { Context } from "../../context/Context";
+
 
 const Main = () => {
   const {
