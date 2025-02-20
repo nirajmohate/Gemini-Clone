@@ -2,7 +2,7 @@ import React from "react";
 import { assets } from "../../assets/assets";
 import "./Main.css";
 import { useContext } from "react";
-import { context } from "../../context/context";
+import { Context } from "../../context/context.jsx";
 
 
 const Main = () => {
@@ -14,7 +14,7 @@ const Main = () => {
     resultData,
     setInput,
     input,
-  } = useContext(context);
+  } = useContext(Context);
 
   return (
     <div className="main">
